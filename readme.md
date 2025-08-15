@@ -8,11 +8,11 @@ phase-1
 
 things to remember in navigation.
 
-ls -l : l is a flag of ls command. where it shows list in a detailed way.
-cd .. : change directory a step back.
-cd    : it goes directly to the user home directory.
-cd ~  : it goes directly to the user home directory.
-~     : it is shortcut for home directory.
+-ls -l : l is a flag of ls command. where it shows list in a detailed way.
+-cd .. : change directory a step back.
+-cd    : it goes directly to the user home directory.
+-cd ~  : it goes directly to the user home directory.
+-~     : it is shortcut for home directory.
 
 2) file/directory creation:
 
@@ -27,8 +27,8 @@ cd ~  : it goes directly to the user home directory.
 
 things to rember in file content:
 
-echo > filename  : divert the print output into files. it overrights.
-echo >> filename : divert the print output into files. it appends.
+-echo > filename  : divert the print output into files. it overrights.
+-echo >> filename : divert the print output into files. it appends.
 
 4) permissions :
 
@@ -41,11 +41,11 @@ read (r) 4, write (w) 2, ececute (x) 1
 
 + add permission, - remove permission.
 
-symbolic : useful for chanage only one permission at a time.
+-symbolic : useful for chanage only one permission at a time.
 
 chmod u+x readme.md
 
-numeric  : chnage all permission at a time.
+-numeric  : chnage all permission at a time.
 
 chmod 644 readme.md
 
@@ -53,11 +53,11 @@ chmod 644 readme.md
 
 sudo is compulsory because, it works on system files.
 
-apt : advanced package tool
+-apt : advanced package tool
 
-sudo apt update : it update the catalog and display the avilable updates.
+-sudo apt update : it update the catalog and display the avilable updates.
 
-sudo apt upgrade : it takes that catalog and upgrade the apps/ packages to latest versions.
+-sudo apt upgrade : it takes that catalog and upgrade the apps/ packages to latest versions.
 
 sudo apt install : use to install new packages.
 
