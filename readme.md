@@ -1,4 +1,4 @@
-phase-1
+**phase-1**
 
 1) navigation:
 
@@ -62,5 +62,74 @@ sudo is compulsory because, it works on system files.
 - sudo apt install : use to install new packages.
 
 - sudo apt autoremove : use to remove the unused packages and files.
+
+
+
+
+**phase-2**
+
+###### Process Management :
+
+- ps   : shows running processes. static
+- htop : dispaly running processes in a dynamic way. we can do lot of operations like kill etc.
+
+
+###### Networking Fundamentals :
+
+- ping : checks the connection with server.
+- ip addr : display the all the network interfaces along with address and detailed info
+- ss : used to display the opened ports
+
+
+###### shell scripting :
+
+- varibales: stores value 
+
+USER_NAME="lokes"
+
+"$USER_NAME"
+
+- input : get the input from terminal
+
+read USER_NAME
+
+- output : used to display
+
+echo "$USER_NAME"
+
+- if/else
+
+if [ condition ]
+then
+
+else
+
+fi
+
+###### services and systemd:
+
+systemd takes control for all the services
+
+systemctl used to intract with systemd
+
+- systemctl start : it starts the service.
+- systemctl status : it checks the info of services
+- systemctl enable : enebales it to up after booting every time
+
+
+
+###### ssh and key management:
+
+- ssh : used to connect to remote server
+- ssh-key : used to generate key value pairs
+- ssh-copy-id : use to copy the public key into server.
+
+
+
+
+
+
+
+
 
 
